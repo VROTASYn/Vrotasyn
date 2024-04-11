@@ -1,0 +1,76 @@
+<html>
+    <head>
+        <title>Залікова робота 3</title>
+        <style>
+        	body{
+            margin: 0;
+            padding: 0;
+        }
+        .background{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+        }
+        .wolf{
+            position: fixed;
+            top: 2%;
+            width: 30%;
+            height: 25%;
+        }
+        .hud{
+            position: fixed;
+            top: 4%;
+            left: 72%;
+            width: 25%;
+            height: 30%;
+        }
+        textarea{
+            position: fixed;
+            background: none;
+            color: white;
+            font-size: 14px;
+            font-family: Arial;
+            top: 73%;
+            resize: none;
+            left: 2%;
+            width: 30%;
+            height: 15%;
+            border: 5px double #757223;
+        }
+        input{
+            position: fixed;
+            top: 89%;
+            left: 2%;
+            width: 30%;
+            height: 3%;
+            border: 5px double #757223;
+        }
+        .back{
+            position: fixed;
+            top: 94%;
+            left: 2%;
+            height: 5%;
+            background: black;
+            border: 5px double black;
+            color: #b6b6b6;
+        }
+        .back:hover{
+            border: 5px double #b6b6b6;
+        }
+            </style>
+    </head>
+    <body>
+        <img src="background2.png" class="background">
+        <img src="wolf.png" class="wolf">
+        <img src="hud.png" class="hud">
+        <form action="index.html">
+            <textarea disabled>
+Весемир > Відоме перестає бути кошмаром. Те, з чим вмієш боротися, вже не таке страшне. Так? 
+                
+Відьмак > Але якщо доводиться вибирати між одним злом і іншим, я вважаю за краще не вибирати зовсім.
+            </te(Змінити на textarea)>
+            <input type="text" placeholder="Почніть писати тут. Натисніть 'Enter', щоб відправити.">
+            <button class="back">Повернутись до Головного Меню</button>
+        </form>
+    </body>
+</html>
